@@ -17,3 +17,9 @@ JS:
 const { tickNum } = require('event-loop-ticks');
 console.log(tickNum());
 ```
+
+# Limitations
+
+It is useful only to check if part of code were executed in the same or other tick.
+
+Library is constantly 'spinning' in event lopp, so waiting for long timeout will cause `tickNum()` to return big values.
