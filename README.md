@@ -18,7 +18,7 @@ const { tickNum } = require('event-loop-ticks');
 console.log(tickNum());
 ```
 
-# Limitations
+# Caveats
 
 It is useful only to check if part of code were executed in the same or other tick.
 
