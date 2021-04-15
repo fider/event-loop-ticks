@@ -1,6 +1,6 @@
 {
   "name": "event-loop-ticks",
-  "version": "1.0.1",
+  "version": "1.0.2",
   "description": "Get current event loop tick number. For educational purposes.",
   "main": "lib/index.js",
   "scripts": {
